@@ -1709,6 +1709,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 107.95) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff2a429-3e65-404a-8acd-9185c22256bd")
+	)
+	(wire
+		(pts
 			(xy 133.35 68.58) (xy 133.35 72.39)
 		)
 		(stroke
@@ -1919,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5416574-6519-4d75-8902-0e8924aa3ea6")
+	)
+	(wire
+		(pts
 			(xy 166.37 74.93) (xy 176.53 74.93)
 		)
 		(stroke
@@ -1983,7 +2003,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 107.95 90)
+		(at 116.84 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1991,7 +2011,7 @@
 		(dnp no)
 		(uuid "0797abb0-4d98-4c5f-83e3-ca6829c34bd1")
 		(property "Reference" "TP1"
-			(at 119.634 106.934 90)
+			(at 115.824 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2019,7 @@
 			)
 		)
 		(property "Value" "TP_GNSS_SAFEBOOT"
-			(at 106.934 107.95 90)
+			(at 103.124 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 102.87 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 102.87 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2045,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 120.65 107.95 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2212,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 110.49 90)
+		(at 116.84 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2200,7 +2220,7 @@
 		(dnp no)
 		(uuid "3dbee68d-16bf-46ba-b36e-9a525bb6d71c")
 		(property "Reference" "TP2"
-			(at 119.634 109.474 90)
+			(at 115.824 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2228,7 @@
 			)
 		)
 		(property "Value" "TP_GNSS_RESET"
-			(at 105.156 110.49 90)
+			(at 101.346 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 105.41 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 105.41 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2254,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 120.65 110.49 0)
+			(at 116.84 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100R"
 			(at 162.56 120.6499 0)
 			(effects
 				(font

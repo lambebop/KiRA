@@ -4809,7 +4809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 231.14 96.5199 0)
 			(effects
 				(font
