@@ -6610,16 +6610,16 @@
 		)
 	)
 	(junction
-		(at 135.89 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0381fc0f-0dde-44c7-b55d-8b5f5184a2c3")
-	)
-	(junction
 		(at 217.17 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05fdac1f-168d-44fd-aea0-96afb89823db")
+	)
+	(junction
+		(at 135.89 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce99c65-6b56-41f5-8b72-eb7039d8570f")
 	)
 	(junction
 		(at 259.08 97.79)
@@ -6758,6 +6758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6039719c-ee61-48ad-a713-2cd661f92e25")
+	)
+	(junction
+		(at 146.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70395ceb-26d4-4833-bee7-ce5f85cf6e8a")
 	)
 	(junction
 		(at 143.51 27.94)
@@ -6904,12 +6910,6 @@
 		(uuid "bd0959e5-8478-45ff-a453-0892d82babe1")
 	)
 	(junction
-		(at 134.62 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd702a06-5c32-4a8e-8fb6-e052770cb5cb")
-	)
-	(junction
 		(at 16.51 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6980,12 +6980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f395986b-8fff-448f-81a8-f52ce767cf86")
-	)
-	(junction
-		(at 142.24 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9275995-1f4b-4e9b-bb41-3f2d235e4c16")
 	)
 	(junction
 		(at 212.09 105.41)
@@ -7225,16 +7219,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 144.78 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca80a21-ddf4-43ea-9b40-5d43b2783a01")
-	)
-	(wire
-		(pts
 			(xy 156.21 20.32) (xy 168.91 20.32)
 		)
 		(stroke
@@ -7345,7 +7329,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 135.89 63.5)
+			(xy 146.05 66.04) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7462,16 +7446,6 @@
 			(type default)
 		)
 		(uuid "44a1e65d-ea33-48d3-8c90-0e0da1819537")
-	)
-	(wire
-		(pts
-			(xy 146.05 66.04) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44bbc3f0-45d0-4cf5-b65c-117cde0ef12e")
 	)
 	(wire
 		(pts
@@ -7825,16 +7799,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 63.5) (xy 135.89 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a366dc-6ca8-4549-88a8-6ee45f10e97a")
-	)
-	(wire
-		(pts
 			(xy 259.08 128.27) (xy 259.08 134.62)
 		)
 		(stroke
@@ -8135,6 +8099,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93460143-7b06-4e5c-b9c6-c285d36b98fb")
+	)
+	(wire
+		(pts
 			(xy 78.74 25.4) (xy 78.74 27.94)
 		)
 		(stroke
@@ -8315,26 +8289,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 60.96) (xy 134.62 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76f073d-66c9-4495-9960-5ce4eeb0ac55")
-	)
-	(wire
-		(pts
-			(xy 142.24 58.42) (xy 152.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a78e62b3-28d7-41a8-bc1b-3c3fcf3fffa6")
-	)
-	(wire
-		(pts
 			(xy 99.06 68.58) (xy 130.81 68.58)
 		)
 		(stroke
@@ -8375,7 +8329,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 142.24 58.42)
+			(xy 140.97 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8495,6 +8449,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8f163c-67c6-462f-9091-4373ac6d45c7")
+	)
+	(wire
+		(pts
 			(xy 193.04 109.22) (xy 193.04 106.68)
 		)
 		(stroke
@@ -8572,16 +8536,6 @@
 			(type default)
 		)
 		(uuid "bd92afa8-0f32-44a0-83dd-ec604d62d20b")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 146.05 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf76da8f-cc2b-4227-9e6c-9ac75bc9746e")
 	)
 	(wire
 		(pts
@@ -8715,16 +8669,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 142.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7da6f04-159e-4d45-a927-52127199c308")
-	)
-	(wire
-		(pts
 			(xy 133.35 66.04) (xy 133.35 76.2)
 		)
 		(stroke
@@ -8785,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 134.62 63.5)
+			(xy 135.89 60.96) (xy 135.89 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8862,6 +8806,16 @@
 			(type default)
 		)
 		(uuid "e2d53be1-eb7b-4140-b656-9e583580e603")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b16398-c602-4cdb-bf78-57752ff25b47")
 	)
 	(wire
 		(pts
@@ -10651,7 +10605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
 			(at 27.94 26.67 0)
 			(effects
 				(font
@@ -11871,7 +11825,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 81.28 0)
+		(at 142.24 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11879,7 +11833,7 @@
 		(dnp no)
 		(uuid "42cd2be9-5670-4c71-b576-30bf66d66a1e")
 		(property "Reference" "#PWR042"
-			(at 144.78 87.63 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 85.344 0)
+			(at 142.24 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 81.28 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +11859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 81.28 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +11868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 81.28 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +12493,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 125.73 78.74 180)
+		(at 125.73 76.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12547,7 +12502,7 @@
 		(dnp no)
 		(uuid "65c200c5-5bd0-477c-8ece-30f15358d06a")
 		(property "Reference" "J1"
-			(at 126.492 77.216 0)
+			(at 126.492 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12511,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 119.888 82.804 0)
+			(at 119.888 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12520,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 125.73 78.74 0)
+			(at 125.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 78.74 0)
+			(at 125.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12538,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 125.73 78.74 0)
+			(at 125.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,6 +13203,73 @@
 			(project ""
 				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 142.24 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b316ed9-c6d6-4f8f-8a8e-8499c8ae5cb9")
+		(property "Reference" "#PWR073"
+			(at 146.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 138.43 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b38887-787b-4102-b577-752abb9d6872")
+		)
+		(instances
+			(project "KiRA Flight Computer"
+				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -16459,7 +16481,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdf4678b-abbe-4f1f-97df-91a257e24f71")
 		(property "Reference" "SW2"
 			(at 27.94 43.18 0)
@@ -16516,6 +16537,10 @@
 		(instances
 			(project ""
 				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379"
+					(reference "SW2")
+					(unit 1)
+				)
+				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/ba160f04-df44-4adc-a5a3-9beb293319f2"
 					(reference "SW2")
 					(unit 1)
 				)

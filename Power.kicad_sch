@@ -3659,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dep:Inductor 60A782C"
+		(property "Footprint" "Inductor_SMD:L_APV_APH1050"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -3847,7 +3847,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 69.85 85.09 180)
+		(at 78.74 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3855,7 +3855,7 @@
 		(dnp no)
 		(uuid "5032065e-55c9-4ffa-938f-af49ef15cf23")
 		(property "Reference" "D2"
-			(at 69.85 88.392 0)
+			(at 78.74 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3863,7 @@
 			)
 		)
 		(property "Value" "LED_RED"
-			(at 69.85 90.932 0)
+			(at 78.74 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 69.85 85.09 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 85.09 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 85.09 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 85.09 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5086,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd3bac91-6a13-455d-b021-4c8ded5cd139")
 		(property "Reference" "C29"
 			(at 68.58 76.1999 0)
@@ -5156,7 +5155,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3355627-a195-4fde-8df4-d9e4c01f56de")
 		(property "Reference" "C36"
 			(at 139.7 144.7799 0)
@@ -5626,7 +5624,7 @@
 		(dnp no)
 		(uuid "e62a1376-07a3-49fa-9baa-0318009e16ac")
 		(property "Reference" "C30"
-			(at 73.66 76.1999 0)
+			(at 86.106 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5633,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 73.66 78.7399 0)
+			(at 86.106 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5764,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 85.09 270)
+		(at 69.85 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5775,7 +5773,7 @@
 		(dnp no)
 		(uuid "f3174285-4291-4942-bde3-415d015941f0")
 		(property "Reference" "R10"
-			(at 78.74 88.392 90)
+			(at 69.85 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5781,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 78.74 90.932 90)
+			(at 69.85 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5789,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 86.868 90)
+			(at 69.85 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 85.09 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5807,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 85.09 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
