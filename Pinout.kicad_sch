@@ -810,50 +810,6 @@
 			)
 		)
 	)
-	(global_label "UART1_RX"
-		(shape input)
-		(at 48.26 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28456180-5529-45d0-bdf4-1d2dce0ff579")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.9615 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART1_TX"
-		(shape input)
-		(at 48.26 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69d1c704-b24c-45d9-a9b1-dac6b9626b21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.2639 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C3_SCL"
 		(shape input)
 		(at 39.37 69.85 180)
@@ -944,86 +900,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 53.34 39.37 180)
+		(at 53.34 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19d896df-231a-4702-8105-47a9f8fbdf0d")
-		(property "Reference" "J7"
-			(at 54.61 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 54.61 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "205f4a3c-7c9b-4b62-87d5-f39a04ab1697")
-		)
-		(pin "2"
-			(uuid "ae4a5365-4a32-46e4-97eb-88ae8b397da1")
-		)
-		(instances
-			(project ""
-				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/b67f38d8-38f4-48c0-8f3f-0b1ef1ce702f"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 53.34 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "313e3afe-ebb8-48d2-9368-15d9da97c1f3")
 		(property "Reference" "J10"
-			(at 54.61 41.9099 0)
+			(at 54.61 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +918,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 54.61 44.4499 0)
+			(at 54.61 41.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +927,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 53.34 44.45 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 44.45 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +945,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 44.45 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1318,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe3da049-6abd-49e5-8dda-1d68b576409d")
 		(property "Reference" "J8"
 			(at 67.31 67.3099 0)
