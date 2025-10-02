@@ -1937,10 +1937,28 @@
 		(uuid "3c679166-8de7-41d0-8abb-c8b57e3efa28")
 	)
 	(junction
+		(at 39.37 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45426684-61b2-474f-9b6c-0ab2873f433e")
+	)
+	(junction
 		(at 50.8 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60b7f282-836f-41ca-8476-6a3c161c8768")
+	)
+	(junction
+		(at 27.94 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c948f1-daaa-4cad-bff8-890dea8fa255")
+	)
+	(junction
+		(at 24.13 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77cfdcde-bd73-4f75-8f6a-ebfc7811d23f")
 	)
 	(junction
 		(at 107.95 140.97)
@@ -1991,6 +2009,12 @@
 		(uuid "c43eed95-7712-4c5a-a5f2-272cb38a9483")
 	)
 	(junction
+		(at 27.94 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c86cb0-f16e-4fde-bf68-d5e4ab4b5677")
+	)
+	(junction
 		(at 124.46 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2015,16 +2039,16 @@
 		(uuid "da031dc4-2f70-427e-930f-de4eb6d9d015")
 	)
 	(junction
+		(at 24.13 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db30bc9d-7896-46d3-bdec-fd1ab39c4676")
+	)
+	(junction
 		(at 50.8 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9bee022-7102-4cbf-9460-c29d59947f03")
-	)
-	(junction
-		(at 31.75 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66fcc04-0603-42c2-8f51-84e5a0ff03c4")
 	)
 	(no_connect
 		(at 90.17 76.2)
@@ -2055,16 +2079,6 @@
 			(type default)
 		)
 		(uuid "01225197-1de1-4e48-9465-4b27309934ab")
-	)
-	(wire
-		(pts
-			(xy 31.75 138.43) (xy 60.96 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029a099d-e46c-4305-8f90-8b08c5b196b0")
 	)
 	(wire
 		(pts
@@ -2258,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 140.97) (xy 39.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fb515-6b91-48f5-8565-22a129a53c07")
+	)
+	(wire
+		(pts
 			(xy 92.71 135.89) (xy 91.44 135.89)
 		)
 		(stroke
@@ -2265,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "46783a94-6380-4449-9c1d-e8c9b47f7e68")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 60.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a2f93f-2342-45e4-869d-a8f4a726be97")
 	)
 	(wire
 		(pts
@@ -2375,16 +2409,6 @@
 			(type default)
 		)
 		(uuid "66f95640-11f9-4a1d-b807-04e646c3524a")
-	)
-	(wire
-		(pts
-			(xy 24.13 138.43) (xy 31.75 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "690f816f-0182-4b63-b5ff-b5ae10a750b3")
 	)
 	(wire
 		(pts
@@ -2528,6 +2552,26 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 148.59) (xy 27.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73e6b23-ec85-46c5-a082-a50a6b4d639c")
+	)
+	(wire
+		(pts
+			(xy 16.51 140.97) (xy 24.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b5a938-02a0-4935-b7ce-b82a2b438966")
+	)
+	(wire
+		(pts
 			(xy 48.26 66.04) (xy 48.26 73.66)
 		)
 		(stroke
@@ -2598,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 39.37 140.97)
+			(xy 24.13 140.97) (xy 27.94 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 138.43) (xy 31.75 140.97)
+			(xy 24.13 138.43) (xy 24.13 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2755,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "f80a2e21-fb48-40a8-b9e7-b73238a1b7b5")
+	)
+	(wire
+		(pts
+			(xy 27.94 148.59) (xy 39.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8de3f9-8f18-4a5d-98bd-e51d264467d5")
 	)
 	(wire
 		(pts
@@ -3922,6 +3976,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 16.51 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55527411-87a8-4fdf-94fb-933e41397cc6")
+		(property "Reference" "C39"
+			(at 20.32 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 20.32 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 17.4752 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 16.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee1a6909-9816-4ecc-a418-fa46c47b1244")
+		)
+		(pin "1"
+			(uuid "78b9805d-caf7-42f3-b22e-62ca29bc3de3")
+		)
+		(instances
+			(project "KiRA Flight Computer"
+				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/ba160f04-df44-4adc-a5a3-9beb293319f2"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 143.51 66.04 0)
 		(unit 1)
@@ -4254,6 +4378,76 @@
 			(project ""
 				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/ba160f04-df44-4adc-a5a3-9beb293319f2"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717f4e94-873f-44d6-984f-aaca78d5948b")
+		(property "Reference" "C38"
+			(at 31.75 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 31.75 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 28.9052 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "947462a8-79bb-4a97-9dd7-0522399aee58")
+		)
+		(pin "1"
+			(uuid "a226838b-29b2-437c-b32d-9cc0bc0ad8cf")
+		)
+		(instances
+			(project "KiRA Flight Computer"
+				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/ba160f04-df44-4adc-a5a3-9beb293319f2"
+					(reference "C38")
 					(unit 1)
 				)
 			)
