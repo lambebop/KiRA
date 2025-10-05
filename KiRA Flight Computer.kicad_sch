@@ -9203,7 +9203,7 @@
 	)
 	(global_label "BUZZER"
 		(shape input)
-		(at 48.26 127 180)
+		(at 48.26 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9213,7 +9213,7 @@
 		)
 		(uuid "0d5cffcf-4285-4abf-81cb-30bd61939bb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8363 127 0)
+			(at 37.8363 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

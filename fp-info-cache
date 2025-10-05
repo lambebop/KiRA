@@ -1,4 +1,4 @@
-26634539616537725
+26636299104168157
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106231,6 +106231,13 @@ Connector
 0
 3
 3
+dep
+FDMA430NZ
+FDMA430NZ-1
+MOSFET (N-Channel)
+0
+8
+8
 dep
 Inductor 60A782C
 

@@ -5,7 +5,7 @@
 	(uuid "70da42fb-3360-4cd3-8f92-0af47b3607f4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,55 +74,72 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+				(circle
+					(center 0 0)
+					(radius 0.508)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -138,9 +155,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,24 +165,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1532,12 +1531,6 @@
 		)
 	)
 	(junction
-		(at 177.8 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a9544dc-ab23-40ce-953e-9e63ef786844")
-	)
-	(junction
 		(at 109.22 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1574,12 +1567,6 @@
 		(uuid "a947884e-6a10-4e08-ba78-532a8db10d45")
 	)
 	(junction
-		(at 166.37 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9eadd50-5da0-447e-b4cc-a8fb90d057ed")
-	)
-	(junction
 		(at 109.22 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1590,6 +1577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6f3193d-ee34-44aa-a5a5-52e8798126a9")
+	)
+	(junction
+		(at 166.37 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e66924be-d169-4e67-9e39-4f5ac607d411")
 	)
 	(no_connect
 		(at 120.65 95.25)
@@ -1727,16 +1720,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 181.61 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31de523c-8d0d-43cf-baba-9142a995edc4")
-	)
-	(wire
-		(pts
 			(xy 166.37 95.25) (xy 181.61 95.25)
 		)
 		(stroke
@@ -1827,16 +1810,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 177.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7747ae92-af41-4705-81c6-3a098dc3313e")
-	)
-	(wire
-		(pts
 			(xy 118.11 118.11) (xy 118.11 110.49)
 		)
 		(stroke
@@ -1884,16 +1857,6 @@
 			(type default)
 		)
 		(uuid "a03bd2c2-ca41-461d-b26b-e3224bf59758")
-	)
-	(wire
-		(pts
-			(xy 177.8 90.17) (xy 181.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b176ad-ac4e-470e-8691-af8ee3a724d5")
 	)
 	(wire
 		(pts
@@ -1947,26 +1910,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 177.8 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee7bac4-9137-4ec0-a194-dd308745d033")
-	)
-	(wire
-		(pts
-			(xy 176.53 67.31) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9520fec-b536-42a2-9257-798e24e88803")
-	)
-	(wire
-		(pts
 			(xy 109.22 124.46) (xy 138.43 124.46)
 		)
 		(stroke
@@ -1997,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 67.31) (xy 176.53 67.31)
+			(xy 166.37 74.93) (xy 176.53 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 100.33 0)
+		(at 186.69 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2341,7 +2284,7 @@
 		(fields_autoplaced yes)
 		(uuid "445fff6e-a972-4ec2-be1c-dd9ad3c29b79")
 		(property "Reference" "#PWR037"
-			(at 177.8 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 105.41 0)
+			(at 186.69 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 113.03 66.0399 0)
 			(effects
 				(font
@@ -3080,79 +3023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 186.69 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e11ef4ed-a4b5-4009-8c98-f24903a9582e")
-		(property "Reference" "J7"
-			(at 189.23 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 189.23 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dep:CONSMA001SMDG"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4eaaae3c-ec2d-43c2-b22b-07a046a124a4")
-		)
-		(pin "1"
-			(uuid "f31a5fc2-8b62-402d-9451-38f1c12a6e00")
-		)
-		(pin "3"
-			(uuid "26e37e1f-2f98-4369-90d0-109a875444bb")
-		)
-		(instances
-			(project ""
-				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/f42f4972-519d-4306-8fa1-8314a04aa80d"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 166.37 71.12 0)
 		(unit 1)
@@ -3217,6 +3087,76 @@
 			(project ""
 				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/f42f4972-519d-4306-8fa1-8314a04aa80d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 186.69 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07c4257-f28b-4140-859b-9e60653c90ff")
+		(property "Reference" "J15"
+			(at 190.5 94.2731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 190.5 96.8131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11019443-504c-4a59-a581-c4dae06bbb99")
+		)
+		(pin "1"
+			(uuid "2ae49d84-70f8-42d1-84ab-0fb2e7786d04")
+		)
+		(instances
+			(project ""
+				(path "/aff8106b-a9b7-4e48-85ad-25b2eb3ce379/f42f4972-519d-4306-8fa1-8314a04aa80d"
+					(reference "J15")
 					(unit 1)
 				)
 			)
