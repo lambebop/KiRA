@@ -1948,7 +1948,7 @@
 		)
 		(uuid "fd7a23b5-c150-4251-9890-88a456f5097e")
 	)
-	(global_label "UART2_TX"
+	(global_label "UART3_TX"
 		(shape input)
 		(at 120.65 90.17 180)
 		(fields_autoplaced yes)
@@ -1970,7 +1970,7 @@
 			)
 		)
 	)
-	(global_label "UART2_RX"
+	(global_label "UART3_RX"
 		(shape input)
 		(at 120.65 87.63 180)
 		(fields_autoplaced yes)
