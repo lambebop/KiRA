@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONSMA001-SMD-G
+D SMA RF Interface, Jack, 50 ohm, Threaded, 0  18 GHz Operating Frequency, 1 Position, Printed Circuit Board, Board Mount, -65  165 C [-85  329 F]
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONSMA001-SMD-G&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONSMA001-SMD-G&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

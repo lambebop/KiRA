@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC4216HSETRT
+D LDO Voltage Regulators VLI/VLDO 3A REG W/ENABLE
+K
+F https://componentsearchengine.com/Datasheets/1/SC4216HSETRT.pdf
+$ENDCMP
+#
+#End Doc Library

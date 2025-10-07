@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FDMA430NZ
+#/167058/1535306/2.50/8/2/MOSFET (N-Channel)
+DEF FDMA430NZ Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "FDMA430NZ" 850 200 50 H V L CNN
+F2 "FDMA430NZ" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/FDMA430NZ.pdf" 850 0 50 H I L CNN
+F4 "RoHS Compliant ; Low Profile-0.8mm maximum-in the new packageMicroFET 2x2 mm ; HBM ESD protection level > 2.5k V typical (Note 3) ; Free from halogenated compounds and antimony oxides ; RDS(on) = 40m @ VGS = 4.5 V, ID = 5.0A ; RDS(on) = 50m@ VGS = 2.5 V, ID = 4.5A" 850 -100 50 H I L CNN "Description"
+F5 "0.85" 850 -200 50 H I L CNN "Height"
+F6 "512-FDMA430NZ" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDMA430NZ" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FDMA430NZ" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D_1 1 0 0 200 R 50 50 0 0 P
+X D_2 2 0 -100 200 R 50 50 0 0 P
+X G 3 0 -200 200 R 50 50 0 0 P
+X S_1 4 0 -300 200 R 50 50 0 0 P
+X D_3 5 1000 0 200 L 50 50 0 0 P
+X D_4 6 1000 -100 200 L 50 50 0 0 P
+X D_5 7 1000 -200 200 L 50 50 0 0 P
+X S_2 8 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

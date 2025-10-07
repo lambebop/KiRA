@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDMA430NZ
+D RoHS Compliant ; Low Profile-0.8mm maximum-in the new packageMicroFET 2x2 mm ; HBM ESD protection level > 2.5k V typical (Note 3) ; Free from halogenated compounds and antimony oxides ; RDS(on) = 40m @ VGS = 4.5 V, ID = 5.0A ; RDS(on) = 50m@ VGS = 2.5 V, ID = 4.5A
+K
+F https://componentsearchengine.com/Datasheets/1/FDMA430NZ.pdf
+$ENDCMP
+#
+#End Doc Library
